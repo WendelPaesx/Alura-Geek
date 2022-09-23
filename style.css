@@ -1,28 +1,45 @@
-*{
+* {
     margin: 0;
     padding: 0;
 
 }
-nav{
+
+nav {
     display: flex;
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
     width: 100vw;
     height: 75px;
     justify-content: space-around;
     align-items: center;
 }
-menu{
+
+menu {
     display: flex;
-    width: 50vw;
+    width: 55vw;
     align-items: center;
     justify-content: space-around;
-    
-}
-#buscador{
-    height: 30px;
+
 }
 
-#login{
+menu>h1>img {
+    padding-top: 5px;
+    height: 40px;
+}
+
+#buscador {
+    margin-left: 10px;
+    height: 30px;
+    width: 30vw;
+    border-radius: 40px;
+    border: none;
+    background-color: #F5F5F5;
+    padding-left: 5px;
+    text-align: justify;
+
+
+}
+
+#login {
     width: 15vw;
     height: 35px;
     background-color: white;
@@ -30,6 +47,69 @@ menu{
     color: rgb(60, 137, 252);
     cursor: pointer;
 }
-#login:hover{
-    background-color: rgba(138, 166, 243, 0.459);    
+
+#login:hover {
+    background-color: rgba(138, 166, 243, 0.459);
+    
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    height: 40vh;
+    background-image: url(imagens/banner-image.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    align-items: center;
+
+
+}
+
+header>div {
+    margin: 30px 60px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+header h2 {
+    margin-bottom: 10px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 2.8em;
+    color: white;
+
+}
+
+header>div>p {
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3em;
+    color: white;
+}
+header > div> button{
+    margin-top: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: #2A7AE4;
+    color: rgb(255, 254, 254);
+    border: none;
+    cursor: pointer;
+}
+header > div> button:hover{
+    background-color: #5a89c7;
+}
+main{
+    width: 100vw;
+    background-color: #F5F5F5;
+}
+main div{
+    
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    
 }
