@@ -3,7 +3,7 @@
     padding: 0;
 
 }
-header{
+nav{
     display: flex;
     background-color: aquamarine;
     width: 100vw;
@@ -17,6 +17,9 @@ menu{
     align-items: center;
     justify-content: space-around;
     
+}
+#buscador{
+    height: 30px;
 }
 
 #login{
