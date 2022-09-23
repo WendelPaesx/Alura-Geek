@@ -110,6 +110,9 @@ header>div>button {
 header>div>button:hover {
     background-color: #5a89c7;
 }
+main{
+    width: 95vw;
+}
 
 section#lista {
     display: flex;
@@ -142,16 +145,57 @@ section#lista {
 #logo{
     display: flex;
 }
+#li > ul > li{
+    padding-bottom: 10px;
+
+
+}
 #baseline>#logo >img {
     display: flex;
     width: 15vw;
     
     
 }
+#contato{
+    display: flex;
+    flex-direction: column;
+}
+#contato > #name{
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+}
+#contato > #txt1{
+    margin-top: 10px;
+    border: none;
+    height: 80px;
+    width: 30vw;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+#contato > button{
+    margin-top: 10px;
+    height: 40px;
+    width: 150px;
+    background-color: #2A7AE4;
+    color: rgb(255, 254, 254);
+    border: none;
+    cursor: pointer;
+}
 footer{
+    display: flex;
     height: 40px;
     text-align: center;
+    width: 100vw;
+    justify-content: center;
     
+    
+}
+footer p {
+    padding-left: 5px;
 }
 footer a {
     text-decoration: none;
