@@ -2,6 +2,7 @@
 
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 
 }
 
@@ -12,7 +13,7 @@ body {
 nav {
     display: flex;
     background-color: rgb(255, 255, 255);
-    width: 97vw;
+    width: 100vw;
     height: 75px;
     justify-content: space-around;
     align-items: center;
@@ -60,7 +61,7 @@ menu>h1>img {
 
 header {
     display: flex;
-    width: 97.5vw;
+    width: 100vw;
     height: 40vh;
     background-image: url(imagens/banner-image.png);
     background-repeat: no-repeat;
@@ -113,24 +114,24 @@ header>div>button:hover {
 section#lista {
     display: flex;
     flex-direction: column;
-    width: 97vw;
+    width: 100vw;
     background-color: #F5F5F5;
 }
 
 #lista div {
 
     display: flex;
-    width: 97vw;
+    width: 100vw;
     justify-content: center;
 
 }
 
 #lista div img {
-    width: 95vw;
+    width: 100vw;
 }
 
 #baseline {
-    width: 97vw;
+    width: 100vw;
     display: flex;
     background-color: #EAF2FD;
     height: 300px;
@@ -148,7 +149,7 @@ section#lista {
     
 }
 footer{
-    height: 20px;
+    height: 40px;
     text-align: center;
     
 }
