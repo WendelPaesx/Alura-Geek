@@ -1,0 +1,47 @@
+.nav {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 75px;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    width: 55vw;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+menu .logo{
+    padding-top: 5px;
+    height: 40px;
+}
+
+#buscador {
+    margin-left: 10px;
+    height: 30px;
+    width: 30vw;
+    border-radius: 40px;
+    border: none;
+    background-color: #F5F5F5;
+    padding-left: 5px;
+    text-align: justify;
+
+
+}
+
+#login {
+    width: 15vw;
+    height: 35px;
+    background-color: white;
+    border: 0.5px solid blue;
+    color: rgb(60, 137, 252);
+    cursor: pointer;
+}
+
+#login:hover {
+    background-color: rgba(138, 166, 243, 0.459);
+
+}

@@ -1,20 +1,29 @@
 
-import './App.css';
+import Produtos from './componentes/Produtos';
+import Banner from './componentes/Banner';
+import Navegador from './componentes/Navegador';
+
+
+
 
 function App() {
+
+ 
+
+
   return (
     <div className="App">
-      
-      <header className ="header">
-        <div>
-            <h2>Dezembro Promocional</h2>
-            <p>Produtos selecionados com 33% de desconto</p>
-            <button type="submit"> Ver Consoles</button>
-        </div>
+      <Navegador />
+      <Banner />
+      <Produtos/>
 
 
-    </header>
-      
+
+
+
+
+
+
     </div>
   );
 }
