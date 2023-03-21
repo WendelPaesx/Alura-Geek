@@ -2,9 +2,9 @@
 
     box-sizing: 100%;
     margin-left: 50px;
-    display: inline-block;
+    display: block;
     height: 150px;
-    width: 95%;
+    width: 95vw;
 
 
 
@@ -14,19 +14,22 @@
    display: block;
    margin-top:30px ;
     margin-left: 15px;
-   max-width: 100%;
+   box-sizing: 95%;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bold;
  }
+  .tema h2{
+   max-width: 95vw;
+  }
 
- .produtos .tema {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-
- }
+ 
 
  .itens {
     margin: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    max-width:95%;
  }
 
  .it {
