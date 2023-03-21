@@ -1,23 +1,35 @@
- 
- .produtos{
-   margin-left: 30px;
+ .produtos {
+
+    box-sizing: 100%;
+    margin-left: 50px;
     display: inline-block;
     height: 150px;
-    width: 100%;
-    
-    
-    
+    width: 95%;
+
+
+
  }
- .produtos .tema{
+
+ .tema {
+   display: block;
+   margin-top:30px ;
+    margin-left: 15px;
+   max-width: 100%;
+ }
+
+ .produtos .tema {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 
  }
- .itens{
-   display: flex;
-   padding: 30px;
+
+ .itens {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
  }
 
- .it{
-   padding: 10px;
+ .it {
+    padding: 10px;
+    align-items: center;
  }

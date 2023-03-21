@@ -1,5 +1,12 @@
 import './StarWars.css'
 import storm from '../img/storm.png'
+import head from '../img/head.png'
+import iodaBebe from '../img/iodinha.png'
+import iodaVelho from '../img/ioda1.png'
+import tropper from '../img/tropper.png'
+import seth from '../img/seth.png'
+
+
 
 
 
@@ -8,11 +15,6 @@ import storm from '../img/storm.png'
 
 
 function StarWars() {
-
-
-
-
-
 
 
     return (
@@ -29,16 +31,34 @@ function StarWars() {
                     <p>R$60,00</p>
                 </div>
                 <div className ='it'>
-                <img src={storm} alt='storm Tropper'></img>
+                <img src={head} alt='storm Tropper'></img>
                     <p>Produto A</p>
                     <p>R$60,00</p>
                 </div>
                 <div className ='it'>
-                <img src={storm} alt='storm Tropper'></img>
+                <img src={iodaVelho} alt='storm Tropper'></img>
                     <p>Produto A</p>
                     <p>R$60,00</p>
                 </div>
+                <div className ='it'>
+                <img src={tropper} alt='storm Tropper'></img>
+                    <p>Produto A</p>
+                    <p>R$60,00</p>
+                </div>
+                <div className ='it'>
+                <img src={iodaBebe} alt='storm Tropper'></img>
+                    <p>Produto A</p>
+                    <p>R$60,00</p>
+                </div>
+                <div className ='it'>
+                <img src={seth} alt='storm Tropper'></img>
+                    <p>Produto A</p>
+                    <p>R$60,00</p>
+                </div>
+                
+                
             </div>
+            
 
 
 
