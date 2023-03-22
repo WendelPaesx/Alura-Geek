@@ -35,4 +35,9 @@
  .it {
     padding: 10px;
     align-items: center;
+
+ }
+ .it p{
+   color: rgb(5, 105, 255);
+   font-family: Georgia, 'Times New Roman', Times, serif;
  }

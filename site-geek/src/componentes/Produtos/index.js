@@ -27,32 +27,32 @@ function StarWars() {
             <div className='itens'>
                 <div className='it'>
                     <img src={storm} alt='storm Tropper'></img>
-                    <p>Produto A</p>
+                    <p>chaveiro Storm Tropper</p>
                     <p>R$60,00</p>
                 </div>
                 <div className ='it'>
                 <img src={head} alt='storm Tropper'></img>
-                    <p>Produto A</p>
+                    <p>chaveiro Darth Vader</p>
                     <p>R$60,00</p>
                 </div>
                 <div className ='it'>
                 <img src={iodaVelho} alt='storm Tropper'></img>
-                    <p>Produto A</p>
+                    <p>Ioda mini</p>
                     <p>R$60,00</p>
                 </div>
                 <div className ='it'>
                 <img src={tropper} alt='storm Tropper'></img>
-                    <p>Produto A</p>
+                    <p>storm Tropper Mini</p>
                     <p>R$60,00</p>
                 </div>
                 <div className ='it'>
                 <img src={iodaBebe} alt='storm Tropper'></img>
-                    <p>Produto A</p>
+                    <p>Ioda bêbe</p>
                     <p>R$60,00</p>
                 </div>
                 <div className ='it'>
                 <img src={seth} alt='storm Tropper'></img>
-                    <p>Produto A</p>
+                    <p>Jedi mini</p>
                     <p>R$60,00</p>
                 </div>
                 
